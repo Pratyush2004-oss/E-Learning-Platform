@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="./INTRO CSS/algo_as-tech.css">
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SIdeBar -->
+    <div class="container-fluid p-0 d-flex mt-1">
+        <div class="d-xl-flex flex-column flex-shrink-0 p-4 text-bg-dark d-none " style="width: 280px;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <svg class="bi pe-none me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Sidebar</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="./intro.html" class="nav-link text-white text-center" aria-current="page">
+                        Introduction
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./algo_as_tech.html" class="nav-link active text-white text-center" aria-current="page">
+                        Algorithm as a Technology
+                    </a>
+                </li>
+                
+            </ul>
+            <hr>
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>mdo</strong>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- content of the page -->
+        <div class="container-fluid content">
+
+            <!-- Introduction of the topic -->
+            <div class="container-fluid my-4">
+                <div class="container text-warning p-3 my-3 border-bottom">
+                    <h1 class="fw-bold">Algorithm as a technology :</h1>
+                </div>
+                <div class="container text-white p-3 my-3 fs-5 text lh-lg">
+                    <ul>
+                        <p class="my-2 mx-4">Suppose computers were infinitely fast and computer memory was free. Would
+                            you have any reason to study algorithms? </p>
+                        <p class="my-2 mx-4">
+                            The answer is yes, if for no other reason than that you would still like to demonstrate that your solution method terminates and does so with the correct answer.
+                        </p>
+                        <p class="my-2 mx-4">
+                            Of course, computers may be fast, but they are not infinitely fast. And memory may be inexpensive, but it is not free.
+                        </p>
+                        <p class="my-2 mx-4">
+                            Computing time is therefore a bounded resource, and so is space in memory. You should use these resources wisely, and algorithms that are efficient in terms of time or space will help you do so.
+                        </p>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container-fluid my-4">
+                <div class="container text-secondary p-3 my-3">
+                    <h3 class="fw-bold">Efficiency :</h3>
+                </div>
+                <div class="container text-white p-3 my-3 fs-5 text lh-lg">
+                    <!-- <h2 class="fw-bold">Features of the Object Oriented programming:</h2> -->
+                    <ol>
+                        <li class="my-2 mx-4">
+                            Different algorithms devised to solve the same problem often differ dramatically in their efficiency. These differences can be much more significant than differences due to hardware and software.
+                        </li>
+                        <li class="my-2 mx-4 sp">
+                            Total system performance depends on choosing efficient algorithms as much as on choosing fast hardware.
+                        </li>
+                        <li class="my-2 mx-4">
+                            Just as rapid advances are being made in other computer technologies, they are being made in algorithms as well.
+                        </li>
+                            <li class="my-2 mx-4">
+                                Algorithms are at the core of most technologies used in contemporary computers.
+                            </li>
+                            <li class="my-2 mx-4 sp">
+                                Furthermore, with the ever-increasing capacities of computers, we use them to solve larger problems than ever before.
+                            </li>
+                            <li class="my-2 mx-4">
+                                Having a solid base of algorithmic knowledge and technique is one characteristic that separates the truly skilled programmers from the novices.
+                            </li>
+                            <li class="my-2 mx-4">With modern computing technology, you can accomplish some tasks without knowing much about algorithms, but with a good background in algorithms, you can do much, much more.</li>
+                            
+                            <div class="container text-secondary p-3 my-3">
+                                <h4 class="fw-bold">You might wonder whether algorithms are truly that important on contemporary computers in light of other advanced technologies, such as</h4>
+                            </div>
+                    </ol>
+                    <ul>
+                        <li class="my-2 mx-4">
+                            advanced computer architectures and fabrication technologies,
+                        </li>
+                        <li class="my-2 mx-4">
+                            easy-to-use, intuitive, graphical user interfaces (GUIs),
+                        </li>
+                        <li class="my-2 mx-4">
+                            object-oriented systems,
+                        </li>
+                        <li class="my-2 mx-4">
+                            integrated Web technologies, and fast networking, both wired and wireless.
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+
+            <!-- <img src="./HTML IMAGES/im1.png" alt=""> -->
+            <!-- <img src="./HTML IMAGES/im1.png" class= "w-100 my-3" alt=""> -->
+
+            <!-- Why OOPS -->
+
+            <!-- <div class="container-fluid my-4">
+                <div class="container text-warning p-3 my-3 border-bottom">
+                    <h1 class="fw-bold">Let us know with the help of above example:</h1>
+                </div>
+                <div class="container text-white p-3 my-3 fs-5 text lh-lg">
+
+                    <h2 class="fw-bold">Features of the Object Oriented programming:</h2>
+
+                    <ol>
+                        <li class="my-2 mx-4">
+                            The < !DOCTYPE html > element defines that this document is an HTML document.
+                        </li>
+                        <li class="my-2 mx-4 sp">
+                            The < html > element is the root element of an HTML page.
+                        </li>
+                        <li class="my-2 mx-4">
+                            The < head > element contains meta information about the HTML page.
+                        </li>
+                        <li class="my-2 mx-4">
+                            The < title > element contains title of the HTML page which is shown in the users browser's title bar or we can say in the page's tab.
+                        </li>
+                        <li class="my-2 mx-4">
+                            The < body > element contains all the visible contents of web page. We can say that it is a container which contain all data, such as heading, paragraph, images, vedios, tables, lists of different type, div blocks, etc.
+                            </li>
+                        <li class="my-2 mx-4">
+                            The < h1 > element defines the maximum size of heading or a large heading.
+                        </li>
+                        <li class="my-2 mx-4">
+                            The < p > element explains about paragraph.
+                        </li>
+                    </ol>
+                </div>
+            </div> -->
+
+           
+   <!--          <div class="container-fluid content"> -->
+
+                <!-- Introduction of the topic -->
+                <!-- <div class="container-fluid my-4">
+                    <div class="container text-warning p-3 my-3 border-bottom">
+                        <h1 class="fw-bold">Use of Web Browsers:</h1>
+                    </div>
+                    <div class="container text-white p-3 my-3 fs-5 text lh-lg">
+                        <ul>
+                            <li class="my-2 mx-4">
+                                The purpose of Web Browsers (Chrome, Edge, Firefox) is to read the HTML document and display them correctly.
+                            </li>
+                            <li class="my-2 mx-4">
+                                A browser does not display the HTML elements, but uses them to determine how to display the document.
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+            <!-- </div> -->
+        </div>
+
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+</html>
