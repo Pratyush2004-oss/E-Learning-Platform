@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to bottom,black, rgb(27, 27, 27), rgb(43, 43, 43), black);
+}
+*{
+  font-family:'Times New Roman', Times, serif;
+  text-align: justify;
+}
+::-webkit-scrollbar{
+  display: none;
+}
