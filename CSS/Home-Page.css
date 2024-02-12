@@ -1,0 +1,23 @@
+body{
+    overflow-x: hidden;
+    background : linear-gradient(to bottom, black , rgb(27,27,27), rgb(43,43,43), black )
+    
+}
+.color-darkgrey{
+    background-color: grey;
+}
+.about-section{
+    /* display: grid;
+    grid-template-columns: 150px 240px 50px; */
+}
+.about{
+    background-image: url(../Images/aboutBgc);
+    background-size: cover;
+}
+.about-color{
+    background-color: rgb(220 245 252)
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
