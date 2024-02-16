@@ -1,14 +1,9 @@
 body{
     overflow-x: hidden;
     background : linear-gradient(to bottom, black , rgb(27,27,27), rgb(43,43,43), black )
-    
 }
 .color-darkgrey{
-    background-color: grey;
-}
-.about-section{
-    /* display: grid;
-    grid-template-columns: 150px 240px 50px; */
+    background-color: rgb(76, 76, 76);
 }
 .about{
     background-image: url(../Images/aboutBgc);
@@ -20,4 +15,17 @@ body{
 *{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
+}
+.word-expand:hover{
+    font-size:larger;
+}
+.btn-expand{
+    background-color: rgb(159, 214, 237);
+    border: 1px rgb(248, 237, 217) solid;
+    border-radius: 25px;
+    padding: 0.75% 1.5%;
+
+}
+.btn-expand:hover{
+
 }
